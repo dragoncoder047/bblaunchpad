@@ -13,11 +13,11 @@ export function calculateNewUpdate(mod) {
             return abyssboxPN ? "unset" : "none";
         }
         case "SlarmoosBox": {
-            var slarmoosBoxPN = compareDates(6, 1, 2026);
+            var slarmoosBoxPN = compareDates(8, 7, 2026);
             return slarmoosBoxPN ? "unset" : "none";
         }
         case "UltraBox": {
-            var ultraboxPN = compareDates(2, 7, 2025);
+            var ultraboxPN = compareDates(7, 7, 2026);
             return ultraboxPN ? "unset" : "none";
         }
         case "BeepBox": {
@@ -41,7 +41,7 @@ export function calculateNewUpdate(mod) {
             return EdoBoxPN ? "unset" : "none";
         }
         case "41Box": {
-            var FOBoxPN = compareDates(14, 4, 2026);
+            var FOBoxPN = compareDates(3, 7, 2026);
             return FOBoxPN ? "unset" : "none";
         }
         
