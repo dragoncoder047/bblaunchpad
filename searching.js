@@ -124,7 +124,7 @@ export function searchForMods(result, fromMods = modList) {
         } else if (filterString.toLowerCase().indexOf("#children:") > -1) {
             let fork = filterString.toLowerCase().split(":")[1].replace(" ", "").replace("#", ""); //get it into just a fork
             if (fork.length == 0) { //there may have been a space, check if next string is the fork
-                if (i+1 < filterStrings.length && filterStrings[i + 1].indexOf("#") > -1) {
+                if (i+1 < filterStrings.length && filterStrings[i + 1].indexOf("#") == -1) {
                     fork = filterStrings[i + 1];
                     i++
                 } else {
@@ -135,7 +135,7 @@ export function searchForMods(result, fromMods = modList) {
         } else if (filterString.toLowerCase().indexOf("#descendants:") > -1) {
             let fork = filterString.toLowerCase().split(":")[1].replace(" ", "").replace("#", ""); //get it into just a fork
             if (fork.length == 0) { //there may have been a space, check if next string is the fork
-                if (i + 1 < filterStrings.length && filterStrings[i + 1].indexOf("#") > -1) {
+                if (i + 1 < filterStrings.length && filterStrings[i + 1].indexOf("#") == -1) {
                     fork = filterStrings[i + 1];
                     i++
                 } else {
@@ -279,6 +279,10 @@ function filterTag(mods, tag) {
         var lowercaseThing = thing.toLowerCase();
         if (lowercaseThing.indexOf(tag.toLowerCase()) > -1) { //if filtered tag is a slice of a tag..
             for (let j = 0; j < mods.length; j++) { //for every mod..
+                if (!modTags[mods[j]]) {
+                    console.error("Tags not implemented for " + mods[j] + " yet");
+                    continue;
+                }
                 for (let k = 0; k < modTags[mods[j]].length; k++) { //for every tag of that mod..
                     if (modTags[mods[j]][k].toLowerCase() == (lowercaseThing)) {
                         foundMods.push(mods[j]); //push mod to found mods if that mod has the tag
