@@ -6,16 +6,15 @@ export function calculateNewUpdate(mod) {
     // Make sure to set the date to 7 days after the update happens 
 
     // If you add a new mod here be sure that there is a valid link to a patch notes in ./mods.json
-
     const knownModUpdateTimes = {
         AbyssBox: [7, 11, 2025],
-        SlarmoosBox: [4, 3, 2026],
-        UltraBox: [2, 7, 2025],
+        SlarmoosBox: [8, 7, 2026],
+        UltraBox: [7, 7, 2026],
         BeepBox: [3, 12, 2025],
         LemmBox: [7, 10, 2025],
         JukeBox: [8, 3, 2026],
         EdoBox: [25, 10, 2025],
-        "41Box": [14, 4, 2026],
+        "41Box": [3, 7, 2026],
     };
 
     const modUpdateDate = knownModUpdateTimes[mod];

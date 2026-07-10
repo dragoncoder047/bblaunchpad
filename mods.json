@@ -10,7 +10,7 @@
         "aa": "false",
         "website": "https://ultraabox.github.io",
         "patchNotes": "https://ultraabox.github.io/patch_notes.html",
-        "version": "V2.2.16",
+        "version": "V2.2.17",
         "description": "UltraBox is a mod of GoldBox that was created by <a href=\"https://www.youtube.com/@neputendo\" target=\"_blank\">Neptendo</a>, <a href=\"https://github.com/MainCharacteroftheProblem\" target=\"_blank\">Main</a>, <a href=\"https://www.youtube.com/@_leovoel\" target=\"_blank\">LeoV</a> and many others, it was released on June 4th of 2023. It's main appeal is its Custom Samples, which allow you to import any sound into the mod and use them as instruments. Its current version is V2.2.15.",
         "wiki": "https://beepbox.miraheze.org/wiki/UltraBox",
         "alternateVersions": [
@@ -24,7 +24,7 @@
             },
             {
                 "link": "https://github.com/ultraabox/ultrabox_typescript/releases",
-                "name": "UltraBox Offline - V2.2.16"
+                "name": "UltraBox Offline - V2.2.17"
             }
         ],
         "hasTestingVersion": true,
@@ -81,7 +81,7 @@
         "aa": "false",
         "website": "https://slarmoo.github.io/slarmoosbox/website/",
         "patchNotes": "https://slarmoo.github.io/slarmoosbox/website/patch_notes.html",
-        "version": "V1.4.11",
+        "version": "V1.4.13",
         "description": "Slarmoo's Box is a mod of UltraBox that was created by <a href=\"https://www.youtube.com/@Slarmoo\" target=\"_blank\">Slarmoo</a> and was released on May 13th of 2024. Its main appeal is its highly customizable envelopes, which make automation a lot more intuitive.",
         "wiki": "https://beepbox.miraheze.org/wiki/Slarmoo%27s_Box",
         "alternateVersions": [
@@ -91,7 +91,7 @@
             },
             {
                 "link": "https://github.com/slarmoo/slarmoosbox/releases",
-                "name": "Slarmoo's Box Offline - V1.4.11"
+                "name": "Slarmoo's Box Offline - V1.4.13"
             },
             {
                 "link": "https://slarmoo.github.io/slarmoosbox/archive/",
@@ -99,7 +99,7 @@
             },
             {
                 "link": "https://box.slarmoo.com/",
-                "name": "Slarmoo's Box Unblocked - V1.4.11"
+                "name": "Slarmoo's Box Unblocked - V1.4.13"
             }
         ],
         "hasTestingVersion": true,
@@ -116,7 +116,7 @@
         "aa": "false",
         "website": "https://beepbox.co",
         "patchNotes": "https://beepbox.miraheze.org/wiki/BeepBox#Version_History",
-        "version": "V4.2.1",
+        "version": "V4.2.2",
         "description": "BeepBox is a music program made by <a href=\"https://johnnesky.com/\" target=\"_blank\">John Nesky</a> and it was released on February 20th of 2012. It's known for being the First version of BeepBox and the originator of all other mods. Its current version is V4.2.1.",
         "wiki": "https://beepbox.miraheze.org/wiki/BeepBox",
         "alternateVersions": [
@@ -1112,7 +1112,7 @@
         "aa": "true",
         "website": "https://41popzic.github.io/41box-app/",
         "patchNotes": "https://41popzic.github.io/41box-app/patch_notes.html",
-        "version": "V1.0.1",
+        "version": "V1.1.1",
         "description": "41Box is a mod of Slarmoo's Box by 41popzic that adds quintuplets as a rhythm option. It was released on March 27th, 2026. ",
         "wiki": "https://beepbox.miraheze.org/wiki/41Box",
         "alternateVersions": [
