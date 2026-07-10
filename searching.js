@@ -64,7 +64,8 @@ const modTags = {
     "BulbBox": ["#active", "#samples", "#modulation", "#songPlayer", "#2025"],
     "StudioBox": ["#active", "#samples", "#modulation", "#songPlayer", "#2026"],
     "41Box": ["#active", "#samples", "#modulation", "#songPlayer", "#2026"],
-    "ModBox+": ["#active", "#2026"]
+    "ModBox+": ["#active", "#2026"],
+    "Tesseract": ["#discontinued", "#samples", "#modulation", "#songPlayer", "#2025"]
 }
 
 export function setAndReturnTagsList() {

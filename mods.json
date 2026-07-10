@@ -1145,8 +1145,8 @@
     {
         "id": "ModBox+",
         "date": {
-            "day": 4,
-            "month": 18,
+            "day": 18,
+            "month": 4,
             "year": 2026
         },
         "image": "https://modboxplus.lognes.net/favicon.ico",
@@ -1158,5 +1158,22 @@
         "wiki": "https://beepbox.miraheze.org/wiki/ModBox%2B", 
         "alternateVersions": [],
         "tree": ["BeepBox", "ModBox"]
+    },
+    {
+        "id": "Tesseract",
+        "date": {
+            "day": 26,
+            "month": 7,
+            "year": 2025
+        },
+        "image": "https://sera-ph1m.github.io/Tesseract/favicon.ico",
+        "aa": "false",
+        "website": "https://sera-ph1m.github.io/Tesseract/",
+        "patchNotes": "",
+        "version": "Release",
+        "description": "Tesseract is a mod of Slarmoo's Box by Seraph1m that allows for different channel types to be reordered, among other smaller features. It released on July 26th, 2025. ",
+        "wiki": "https://beepbox.miraheze.org/wiki/BeepBox_Mods#:~:text=of%20new%20presets.-,Tesseract,-Seraph1m",
+        "alternateVersions": [],
+        "tree": ["BeepBox", "JummBox", "GoldBox", "PaandorasBox", "UltraBox", "Slarmoosbox"]
     }
 ]
