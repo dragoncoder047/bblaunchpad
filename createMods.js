@@ -53,18 +53,20 @@ export function createMods(ModsList, method, isReversed) {
             
         modContainer.appendChild(mod);
 
-        const alternateVersionTitle = modInfo.alternateVersions.length > 0 ?
+        const altVersions = modInfo.alternateVersions || [];
+
+        const alternateVersionTitle = altVersions.length > 0 ?
             div({ class: "promptTitle" },
                 h2({ class: modInfo.id + "Title", style: "margin-bottom: 0.5em;" }, "Alternate " + modInfo.id + " Versions:")
             )
             : "";
         let alternateVersions = "";
-        if (modInfo.alternateVersions.length > 0) {
+        if (altVersions.length > 0) {
             const altVersionList = [];
-            for (let i = 0; i < modInfo.alternateVersions.length; i++) {
+            for (let i = 0; i < altVersions.length; i++) {
                 altVersionList.push(
                     div({ style: "margin-bottom: 0.5em;" },
-                        a({ href: modInfo.alternateVersions[i].link, target: "_blank" }, modInfo.alternateVersions[i].name)
+                        a({ href: altVersions[i].link, target: "_blank" }, altVersions[i].name)
                     )
                 );
             }
@@ -110,7 +112,7 @@ export async function getMods() {
     return await response.json();
 }
 
-function sortMods(Mods, method, isReversed) { //add reverse button later
+function sortMods(Mods, method, isReversed) {
     let sortedMods = [];
     switch (method) {
         case "name": {

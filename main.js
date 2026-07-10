@@ -92,6 +92,9 @@ window.switchView = switchView;
 window.setPromptOpacity = setPromptOpacity;
 window.setPreferedTab = setPreferedTab;
 window.setTheme = setTheme;
+window.surpriseMod = () => {
+    searchForMods(document.getElementById("searchbar").value + " #surprise");
+}
 
 export function buildOptions(menu, items) {
     for (let index = 0; index < items.length; index++) {

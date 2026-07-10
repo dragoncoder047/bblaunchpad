@@ -57,6 +57,10 @@
 
     --favorite-symbol: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0,0,42.04825,40.2" width="16" height="16"><path d="M 41.2 17.8 l -8.2 8 l 1.8 11.3 c 0.2 1 -0.2 2 -1 2.6 c -0.4 0.3 -1 0.5 -1.5 0.5 c -0.4 0 -0.8 -0.1 -1.2 -0.3 l -10.1 -5.3 l -10.2 5.3 c -0.4 0.2 -0.8 0.3 -1.2 0.3 c -0.5 0 -1 -0.2 -1.5 -0.5 c -0.8 -0.6 -1.2 -1.6 -1 -2.6 l 1.9 -11.2 l -8.2 -8 c -0.8 -0.7 -1 -1.7 -0.7 -2.7 c 0.3 -1 1.1 -1.7 2.1 -1.8 l 11.3 -1.6 l 5.1 -10.3 c 0.5 -0.9 1.4 -1.5 2.4 -1.5 c 1 0 2 0.6 2.4 1.5 l 5.1 10.3 l 11.3 1.6 c 1 0.2 1.8 0.8 2.1 1.8 c 0.3 0.9 0 2 -0.7 2.6 z" fill="gray" style="left: 0;position: absolute;top: 0;"></path></svg>');
 
+    --help-symbol: url('data:image/svg+xml,<svg width="20" height="20" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg"><path d="M17 9A5 5 0 007 9a1 1 0 002 0 3 3 0 113 3q-1 0-1 2v1a1 1 0 002 0c0 0 0-1 .703-1.396A5 5 0 0017 9zM11 18a1 1 0 002 0 1 1 0 00-2 0" /></svg>');
+
+    --surprise-symbol: url('data:image/svg+xml,<svg width="50" height="50" viewBox="0 0 18.5 26" xmlns="http://www.w3.org/2000/svg"><path d="M7 18l6-1q1.259-.4 1-2L13 9q-.571-1.373-2-1L5 9q-1.301.451-1 2l1 6q.211 1.212 2 1m-.752-1.897a1 1 0 012.143-1.894 1 1 0 01-2.122 1.915m5.268-4.188A1 1 0 019.553 9.888a1 1 0 012.012 2.024" /></svg>');
+
     --page-margin: #101014;
     --editor-background: #23222b;
     --primary-text: white;
@@ -203,7 +207,7 @@ body {
     height: 100%;
 }
 
-.shareButton, .reverseButton {
+.shareButton, .reverseButton, .surpriseButton {
     align-self: center; 
     height: var(--button-size);
     width: var(--button-size);
@@ -223,6 +227,26 @@ body {
     height: 32px;
     mask-image: var(--share-symbol);
     -webkit-mask-image: var(--share-symbol);
+    pointer-events: none;
+    background: var(--ui-icons);
+    mask-repeat: no-repeat;
+    mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    image-rendering: -moz-crisp-edges !important;
+    image-rendering: -webkit-optimize-contrast !important;
+    image-rendering: -o-crisp-edges !important;
+    image-rendering: pixelated !important;
+    image-rendering: optimizeSpeed !important;
+}
+
+.surpriseButton::before {
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    mask-image: var(--surprise-symbol);
+    -webkit-mask-image: var(--surprise-symbol);
     pointer-events: none;
     background: var(--ui-icons);
     mask-repeat: no-repeat;
@@ -276,7 +300,7 @@ body {
     image-rendering: optimizeSpeed !important;
 }
 
-.shareButton:hover, .reverseButton:hover {
+.shareButton:hover, .reverseButton:hover, .surpriseButton:hover {
     filter: brightness(150%);
 }
 
