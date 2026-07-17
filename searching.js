@@ -73,7 +73,7 @@ export function setAndReturnTagsList() {
         modList.push(window.Mods[mod].id);
     }
 
-    const setList = modTags.all.concat(["#before:", "#after:", "#children:", "#descendants:"]).concat(modList);
+    const setList = modTags.all.concat(["#before:", "#after:", "#children:", "#descendants:", "#modder:"]).concat(modList);
 
     for (let i = 0; i < setList.length; i++) {
         var tag = new Option();
@@ -240,10 +240,10 @@ function filterDescendants(mods, forked) {
         refMap.set(Mod.id, Mod);
     }
     for (let i = 0; i < mods.length; i++) {
-        const Mod = refMap.get(mods[i])
+        const Mod = refMap.get(mods[i]);
         if (Mod.id.toLowerCase().replaceAll(" ", "").replaceAll("'", "").indexOf(forked) > -1) { //is the mod
             foundMods.push(mods[i]);
-            break;
+            continue;
         }
         for (let j = 0; j < Mod.tree.length; j++) {
             if (Mod.tree[j].toLowerCase().replaceAll(" ", "").replaceAll("'", "").indexOf(forked) > -1) {
@@ -251,7 +251,6 @@ function filterDescendants(mods, forked) {
                 break;
             }
         }
-        break;
     }
 
     return foundMods;
@@ -271,7 +270,7 @@ function filterChildren(mods, forked) {
         const Mod = refMap.get(mods[i])
         if (Mod.id.toLowerCase().replaceAll(" ", "").replaceAll("'", "").indexOf(forked) > -1) { //is the mod
             foundMods.push(mods[i]);
-            break;
+            continue;
         }
         const lastIndex = Mod.tree.length - 1;
         if (lastIndex >= 0 && Mod.tree[lastIndex].toLowerCase().replaceAll(" ", "").replaceAll("'", "").indexOf(forked) > -1) {
@@ -283,7 +282,6 @@ function filterChildren(mods, forked) {
                 foundMods.push(mods[i]);
             }
         }
-        break; 
     }
 
     return foundMods;
