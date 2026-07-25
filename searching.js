@@ -53,19 +53,22 @@ const modTags = {
     "Box": ["#discontinued", "#jokeMod", "#2024"],
     "DinoBox": ["#discontinued", "#songPlayer", "#2024"],
     "AxoBox": ["#discontinued", "#samples", "#songPlayer", "#modulation", "#2024"],
-    "EdoBox": ["#active", "#songPlayer", "#modulation", "#microtonal", "#offline", "#2024"],
+    "EdoBox": ["#hiatus", "#songPlayer", "#modulation", "#microtonal", "#offline", "#2024"],
     "LemmBox": ["#hiatus", "#samples", "#songPlayer", "#modulation", "#2025"],
     "BonBox": ["#discontinued", "#songPlayer", "#jokeMod", "#2025"],
     "LunariisBox": ["#hiatus", "#samples", "#songPlayer", "#modulation", "#2025"],
     "RolyBox": ["#active", "#samples", "#songPlayer", "#modulation", "#2025"],
     "JukeBox": ["#active", "#samples", "#songPlayer", "#modulation", "#2025"],
     "DsQuickBoxMod": ["#active", "#samples", "#songPlayer", "#modulation", "#2025"],
-    "BloxBox": ["#active", "#songPlayer", "#2025"],
+    "BloxBox": ["#hiatus", "#songPlayer", "#2025"],
     "BulbBox": ["#active", "#samples", "#modulation", "#songPlayer", "#2025"],
     "StudioBox": ["#active", "#samples", "#modulation", "#songPlayer", "#2026"],
     "41Box": ["#active", "#samples", "#modulation", "#songPlayer", "#2026"],
     "ModBox+": ["#active", "#2026"],
-    "Tesseract": ["#discontinued", "#samples", "#modulation", "#songPlayer", "#2025"]
+    "Tesseract": ["#discontinued", "#samples", "#modulation", "#songPlayer", "#2025"],
+    "XenBox": ["#hiatus", "#modulation", "#microtonal", "#songPlayer", "#2026"],
+    "froupbox": ["#active", "#samples", "#modulation", "#songPlayer", "#microtonal", "#2026"],
+    "ModernBox": ["#active", "#samples", "#2026"]
 }
 
 export function setAndReturnTagsList() {

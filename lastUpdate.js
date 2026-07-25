@@ -12,9 +12,10 @@ export function calculateNewUpdate(mod) {
         UltraBox: [7, 7, 2026],
         BeepBox: [3, 12, 2025],
         LemmBox: [7, 10, 2025],
-        JukeBox: [8, 3, 2026],
+        JukeBox: [29, 7, 2026],
         EdoBox: [25, 10, 2025],
-        "41Box": [3, 7, 2026],
+        "41Box": [30, 7, 2026],
+        froupbox: [30, 7, 2026]
     };
 
     const modUpdateDate = knownModUpdateTimes[mod];

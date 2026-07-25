@@ -982,7 +982,7 @@
         "aa": "true",
         "website": "https://jukeebox.github.io/",
         "patchNotes": "https://jukeebox.github.io/manual/patch_notes.html",
-        "version": "V0.3.0b",
+        "version": "V1.0",
         "description": "JukeBox is a mod of Slamoo's Box that was created by CoolTasDude. It adds hundreds of community made presets. It was released on June 21st, 2025. ",
         "wiki": "https://beepbox.miraheze.org/wiki/JukeBox",
         "alternateVersions": [
@@ -1126,7 +1126,7 @@
         "aa": "true",
         "website": "https://41popzic.github.io/41box-app/",
         "patchNotes": "https://41popzic.github.io/41box-app/patch_notes.html",
-        "version": "V1.1.1",
+        "version": "V1.2",
         "description": "41Box is a mod of Slarmoo's Box by 41popzic that adds quintuplets as a rhythm option. It was released on March 27th, 2026. ",
         "wiki": "https://beepbox.miraheze.org/wiki/41Box",
         "alternateVersions": [
@@ -1190,5 +1190,62 @@
         "wiki": "https://beepbox.miraheze.org/wiki/BeepBox_Mods#:~:text=of%20new%20presets.-,Tesseract,-Seraph1m",
         "tree": ["BeepBox", "JummBox", "GoldBox", "PaandorasBox", "UltraBox", "Slarmoosbox"],
         "modder": "Seraph1m"
+    },
+    {
+        "id": "XenBox",
+        "date": {
+            "day": 27,
+            "month": 1,
+            "year": 2026
+        },
+        "image": "https://ultrogmr.dev/xenbox-website/favicon.ico",
+        "aa": "true",
+        "website": "https://ultrogmr.dev/xenbox-website/",
+        "patchNotes": "",
+        "version": "Release",
+        "description": "XenBox is a mod of JummBox by UltroGmr that allows for microtonal scales. It released on January 27th, 2026. ",
+        "wiki": "https://beepbox.miraheze.org/wiki/BeepBox_Mods#:~:text=boring%20as%20possible.-,XenBox,-UltroGmr",
+        "tree": ["BeepBox", "JummBox"],
+        "modder": "UltroGmr"
+    },
+    {
+        "id": "froupbox",
+        "date": {
+            "day": 28,
+            "month": 5,
+            "year": 2026
+        },
+        "image": "https://froupbox.github.io/favicon.ico",
+        "aa": "true",
+        "website": "https://froupbox.github.io/",
+        "patchNotes": "https://froupbox.github.io/patch_notes.html",
+        "version": "V1.0",
+        "description": "froupbox is a mod of Slarmoo's Box by Pastenkopie and cyexclam that adds several new effects and allows for microtonal tunings. It was released on May 28th, 2026",
+        "wiki": "https://beepbox.miraheze.org/wiki/BeepBox_Mods#:~:text=been%20taken%20down.-,froupbox,-Pastenkopie%2C%20cyexclam",
+        "tree": ["BeepBox", "JummBox", "GoldBox", "PaandorasBox", "UltraBox", "Slarmoosbox"],
+        "modder": ["Pastenkopie", "cyexclam"]
+    },
+    {
+        "id": "ModernBox",
+        "date": {
+            "day": 17,
+            "month": 7,
+            "year": 2026
+        },
+        "image": "https://static.wikitide.net/beepboxwiki/f/f9/Modernbox.webp",
+        "aa": "true",
+        "website": "https://file.garden/aKvDahW1zTw7wwmp/ModernBox",
+        "patchNotes": "",
+        "version": "Release",
+        "description": "ModernBox is a mod of ModBox by thebloxer231 that adds drum samples to noise channels. It released on July 17th, 2026. ",
+        "wiki": "https://beepbox.miraheze.org/wiki/BeepBox_Mods#:~:text=cy!box.-,ModernBox,-thebloxer231", 
+        "alternateVersions": [
+            {
+                "link": "https://modernbox.neocities.org/",
+                "name": "ModernBox Neocities"
+            }
+        ],
+        "tree": ["BeepBox", "ModBox"],
+        "modder": "thebloxer231"
     }
 ]
